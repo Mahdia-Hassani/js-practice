@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mahdia Cinema 🎬🍿</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="display: none;">
+
+      <header>
+        <h1>Mahdia Cinema 🎬🍿</h1>
+      </header>
+
+      <section class="theater-screen">
+        <video controls autoplay loop>
+          <source src="video.mp4" type="video/mp4" />
+        </video>
+      </section>
+
+      <section class="buttons">
+        <button onclick="document.querySelector('video').play()">
+          Play Again ▶️
+        </button>
+        <button onclick="alert('Thanks for rating! ⭐')">Rate Movie ⭐</button>
+      </section>
+
+      <footer>
+        <p>&copy;Mahdia Hassani</p>
+      </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
